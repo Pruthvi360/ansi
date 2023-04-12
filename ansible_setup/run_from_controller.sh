@@ -15,6 +15,7 @@ sudo vim /etc/ansible/hosts
 sudo su
 echo "[nxos]
 192.168.122.71
+192.168.122.112
 [nxos:vars]
 ansible_user=achme
 ansible_ssh_pass=Achme_123
